@@ -1,0 +1,49 @@
+.skin_sub_container, .skin_sub_visual_wrap {
+    position: relative;
+    width: 1080px;
+    margin: 0 auto;
+    height: 50px;
+}
+
+#terms {    
+	width: 600px;
+    margin: 60px auto;
+}
+
+#terms table { 
+	width:100%;
+	border-top: 2px solid #000; 
+	border-collapse:collapse;
+	border-spacing:0;
+}
+#terms td {
+	padding: 7px 10px;
+    border: 1px solid #e9e9e9;
+    background: transparent;
+}
+
+#terms td > div {
+	float: right;
+	padding-top: 6px;
+}
+
+#terms caption {
+	padding: 10px 0;
+    font-weight: bold;
+    text-align: left;
+}
+    
+#terms textarea {
+	width:99%;
+	height:200px; 
+	resize:none;
+	border:1px solid #e4eaec;
+	background:#f7f7f7;
+	color:#000;
+	vertical-align:middle;
+	line-height:2em; 
+	margin-bottom: 2px;	
+	padding:2px 2px 3px;
+}
+
+#terms > div { float: right; margin-top: 16px; }
